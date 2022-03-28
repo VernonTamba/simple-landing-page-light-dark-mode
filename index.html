@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Light/Dark Mode</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__logo">
+        <img src="./img/dark-mode.png" alt="dark mode logo" />
+        <h1>Light & Dark</h1>
+      </div>
+      <nav class="nav">
+        <ul class="nav__links">
+          <li><a href="#"> Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Get Started</a></li>
+          <div class="nav__changeModeButton">
+            <img
+              class="nav__image"
+              src="./img/sun.png"
+              alt="change mode button"
+            />
+          </div>
+        </ul>
+        <div class="nav__buttonBurger">
+          <div class="nav__burger">
+            <div class="line-1"></div>
+            <div class="line-2"></div>
+            <div class="line-3"></div>
+          </div>
+          <div class="nav__changeModeButton">
+            <img
+              class="nav__image"
+              src="./img/sun.png"
+              alt="change mode button"
+            />
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main class="main">
+      <div class="main__content">
+        <h1 class="main__heading">Hey, light mode!</h1>
+        <p class="main__description">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia maiores
+          autem debitis tempora enim deserunt soluta rerum commodi distinctio
+          eligendi, cumque explicabo, veritatis provident sequi eos rem
+          repellendus excepturi aspernatur.
+        </p>
+        <div class="main__credit">
+          <img
+            class="main__images"
+            src="./img/youtube.png"
+            alt="YouTube logo"
+          />
+          <h3 class="main__description main__otherDescription">
+            Ideas from these two awesome developers:
+          </h3>
+        </div>
+
+        <div class="main__buttons">
+          <a href="https://www.youtube.com/watch?v=wodWDIdV9BY" target="_blank"
+            ><img
+              class="main__images circle-image"
+              src="./img/kevin-powell.jpg"
+              alt="YouTube logo"
+            />
+            Kevin Powell</a
+          >
+          <a
+            href="https://www.youtube.com/watch?v=gXkqy0b4M5g&t=1727s"
+            target="_blank"
+            ><img
+              class="main__images circle-image"
+              src="./img/dev-ed.jpg"
+              alt="YouTube logo"
+            />
+            Dev Ed</a
+          >
+        </div>
+      </div>
+      <div class="main__image"></div>
+    </main>
+  </body>
+  <script src="./script.js"></script>
+</html>
